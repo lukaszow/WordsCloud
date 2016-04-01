@@ -33,7 +33,7 @@ namespace WordsCloud
             {
                 for (int j = 0; j < listOfText[i].Split(' ').Length; j++)
                     ws.Add(new WordScore(listOfText[i].Split(' ')[j], 0));
-                    /* tutaj pod drugi parametr napisa funkcje ktora oblicza ilosc wystapien slowa w juz istniejacej bazie
+                    /* tutaj pod drugi parametr napisac funkcje ktora oblicza ilosc wystapien slowa w juz istniejacej bazie
                         - funkcja docelowo przyjmuje parametr podobienstwa (algorytm lavensteina)
                     */
             }
